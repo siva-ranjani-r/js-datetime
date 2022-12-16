@@ -5,11 +5,13 @@ console.log(day);
 
 
 
-const x=new Date(); 
-a=x.getDay();   
+
+a=d.getDay();   
 console.log(a);
 
 
-const x=new Date(1999); 
+const x=new Date('1999'); 
 b=x.getYear();   
 console.log(b);
+
+
